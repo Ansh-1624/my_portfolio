@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ansh's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  
+</head>
+<body>
+<canvas id="bg-canvas"></canvas>
+
+<nav class="navbar">
+  <a href="#hero">Home</a>
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#projects">Projects</a>
+  <a href="#contact">Contact</a>
+</nav>
+<section class="hero" id="hero">
+  <h1 class="hero-heading">Hi, I'm Ansh</h1>
+  <img src="bitmoji.png" alt="Ansh's Bitmoji avatar" class="hero-avatar" id="heroAvatar" />
+  <div class="hero-bottom">
+  <p class="hero-tagline">
+    A first-year student exploring design, code, and everything in between.
+  </p>
+  <a href="#contact" class="btn-contact">Contact Me</a>
+</div>
+</section>
+<section class="about" id="about">
+  <h2 class="section-heading">About me</h2>
+  <p class="about-text">
+    Hi, I’m Ansh Goyal, a passionate technology enthusiast currently pursuing Computer Science 
+    and Artificial Intelligence at BITS Pilani, along with my studies at Scaler School of Technology. 
+    I enjoy exploring software development, artificial intelligence, and robotics, and I’m always 
+    curious about how things work. I believe in learning by building, solving real-world problems, 
+    and improving my skills through hands-on experience. My goal is to develop innovative solutions 
+    that combine technology, creativity, and practical problem-solving.
+  </p>
+  <a href="#contact" class="btn-contact">Contact Me</a>
+</section>
+<section class="skills" id="skills">
+  <h2 class="section-heading">Skills</h2>
+  <div class="skills-grid">
+    <div class="skill-card">HTML & CSS</div>
+    <div class="skill-card">Java</div>
+    <div class="skill-card">Python</div>
+    <div class="skill-card">C++</div>
+    <div class="skill-card">Logical Reasoning</div>
+    <div class="skill-card">Problem Solving</div>
+  </div>
+</section>
+<section class="projects" id="projects">
+  <h2 class="section-heading">Projects</h2>
+  <div class="projects-grid">
+
+    <div class="project-card">
+      <img src="project1.png" alt="Project 1 screenshot" class="project-img" />
+      <h3 class="project-title">Lexora</h3>
+      <p class="project-desc">An interactive web application providing real-time text insights, readability scores, and vocabulary metrics. Users can upload documents (PDF, DOCX, TXT) or paste URLs to explore dynamic word clouds, frequency charts, and n-grams. Features client-side execution for complete data privacy and fast analysis.</p>
+      <a href="https://lexora-pi-six.vercel.app/" class="project-link">View Project</a>
+    </div>
+
+    <div class="project-card">
+      <img src="project2.png" alt="Project 2 screenshot" class="project-img" />
+      <h3 class="project-title">CodeSentinel</h3>
+      <p class="project-desc">CodeSentinel is an AI-powered code review and bug-tracking platform designed to analyze code for logical errors, security risks, performance issues, and style problems. Using Gemini 2.5 Flash and static analysis, it provides detailed code insights, complexity evaluation, and annotated reviews. Identified issues can be converted into actionable Kanban tickets, helping developers efficiently track, manage, and resolve bugs throughout the development process.</p>
+      <a href="https://code-verifier-mu.vercel.app/" class="project-link">View Project</a>
+    </div>
+
+    <div class="project-card">
+      <img src="project3.png" alt="Project 3 screenshot" class="project-img" />
+      <h3 class="project-title">snapNcount</h3>
+      <p class="project-desc">snapNcount is a clean and user-friendly expense tracking platform designed to help users manage their finances efficiently. It allows users to securely record and organize expenses, monitor spending patterns, and maintain better control over their budgets. With a simple dashboard and structured financial data, snapNcount makes tracking daily expenses easier, faster, and more convenient across devices.</p>
+      <a href="https://snapncount-expense-tracker.vercel.app/" class="project-link">View Project</a>
+    </div>
+
+     <div class="project-card">
+      <img src="project4.png" alt="Project 4 screenshot" class="project-img" />
+      <h3 class="project-title">SmartFill AI</h3>
+      <p class="project-desc">SmartFill AI — a high-performance Manifest V3 Chrome extension designed to streamline web autofill. Featuring intelligent fuzzy field mapping, zero-latency SPA state synchronization (React/Vue), local client-side file compression, and PBKDF2 PIN encryption, it delivers a secure, automated form-filling experience wrapped in a modern 3D glassmorphic UI.</p>
+      <a href="https://smartfill-ai-assistant.vercel.app/" class="project-link">View Project</a>
+    </div>
+
+  </div>
+</section>
+<div class="contact-links">
+  <a href="mailto:ansh.26bcs10099@sst.scaler.com" class="contact-link">Email</a>
+  <a href="https://www.linkedin.com/in/ansh-goyal-64886a336" target="_blank" rel="noreferrer" class="contact-link">LinkedIn</a>
+  <a href="https://github.com/Ansh-1624" target="_blank" rel="noreferrer" class="contact-link">GitHub</a>
+</div>
+<footer class="site-footer">
+  <p>&copy; 2026 Ansh. Built with HTML &amp; CSS.</p>
+  <a href="#hero" class="footer-top-link">Back to top ↑</a>
+</footer>
+    <script src="script.js"></script>
+</body>
+</html>
