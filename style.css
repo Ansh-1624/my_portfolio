@@ -96,11 +96,21 @@ html {
 .hero-bottom {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
-  gap: 1.5rem;
-  flex-wrap: wrap;
+  text-align: center;
+  gap: 1.25rem;
   margin-top: 2rem;
+}
+
+@media (min-width: 640px) {
+  .hero-bottom {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    gap: 1.5rem;
+  }
 }
 
 .hero-tagline {
